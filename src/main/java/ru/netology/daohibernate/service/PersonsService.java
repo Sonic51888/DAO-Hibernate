@@ -6,6 +6,6 @@ import java.io.IOException;
 import java.util.List;
 
 public interface PersonsService {
-    public List<Person> getPersonsByCity(String city) throws IOException;
+    List<Person> getPersonsByCity(String city) throws IOException;
 
 }

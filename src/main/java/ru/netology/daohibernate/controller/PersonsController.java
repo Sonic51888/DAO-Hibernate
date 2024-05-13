@@ -10,10 +10,10 @@ import java.io.IOException;
 import java.util.List;
 
 @RestController
-public class GetPersons {
+public class PersonsController {
     private final PersonsServiceImpl personsService;
 
-    public GetPersons(PersonsServiceImpl personsService) {
+    public PersonsController(PersonsServiceImpl personsService) {
         this.personsService = personsService;
     }
 
